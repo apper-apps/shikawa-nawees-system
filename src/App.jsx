@@ -5,7 +5,7 @@ import Layout from "@/components/organisms/Layout";
 import Home from "@/components/pages/Home";
 import CategoryView from "@/components/pages/CategoryView";
 import LetterGenerator from "@/components/pages/LetterGenerator";
-import { LanguageProvider } from "@/hooks/useLanguage";
+import { LanguageProvider } from "@/hooks/useLanguage.jsx";
 
 function App() {
   const currentLanguage = useSelector((state) => state.language.currentLanguage);
