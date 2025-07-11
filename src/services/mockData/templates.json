@@ -1,0 +1,480 @@
+[
+  {
+    "Id": 1,
+    "categoryId": 1,
+    "titleUrdu": "طلاق کی درخواست",
+    "titleEnglish": "Divorce Application",
+    "content": "محترم جج صاحب، میں {{applicantName}} ولد/ولدیت {{fatherName}} رہائشی {{address}} شناختی کارڈ نمبر {{cnic}} کے ذریعے عرض کرتا/کرتی ہوں کہ میری شادی {{spouseName}} سے {{marriageDate}} کو ہوئی تھی۔ اب میں {{divorceReason}} کی وجہ سے طلاق کی درخواست کرتا/کرتی ہوں۔",
+    "fields": [
+      {
+        "name": "applicantName",
+        "labelUrdu": "درخواست گزار کا نام",
+        "labelEnglish": "Applicant Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "مکمل نام درج کریں"
+      },
+      {
+        "name": "fatherName",
+        "labelUrdu": "والد کا نام",
+        "labelEnglish": "Father's Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "والد کا نام درج کریں"
+      },
+      {
+        "name": "address",
+        "labelUrdu": "پتہ",
+        "labelEnglish": "Address",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "مکمل پتہ درج کریں"
+      },
+      {
+        "name": "cnic",
+        "labelUrdu": "شناختی کارڈ نمبر",
+        "labelEnglish": "CNIC Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "00000-0000000-0"
+      },
+      {
+        "name": "spouseName",
+        "labelUrdu": "شریک حیات کا نام",
+        "labelEnglish": "Spouse Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "شریک حیات کا نام"
+      },
+      {
+        "name": "marriageDate",
+        "labelUrdu": "شادی کی تاریخ",
+        "labelEnglish": "Marriage Date",
+        "type": "date",
+        "required": true,
+        "placeholder": "شادی کی تاریخ منتخب کریں"
+      },
+      {
+        "name": "divorceReason",
+        "labelUrdu": "طلاق کی وجہ",
+        "labelEnglish": "Reason for Divorce",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "طلاق کی تفصیلی وجہ بیان کریں"
+      }
+    ],
+    "fee": 50
+  },
+  {
+    "Id": 2,
+    "categoryId": 1,
+    "titleUrdu": "جائیداد کا تنازع",
+    "titleEnglish": "Property Dispute",
+    "content": "محترم جج صاحب، میں {{applicantName}} ولد/ولدیت {{fatherName}} رہائشی {{address}} شناختی کارڈ نمبر {{cnic}} کے ذریعے عرض کرتا/کرتی ہوں کہ میری جائیداد {{propertyAddress}} پر {{disputeParty}} نے قبضہ کیا ہے۔ یہ جائیداد {{propertyDetails}} کی ہے اور {{disputeReason}} کی وجہ سے تنازع ہے۔",
+    "fields": [
+      {
+        "name": "applicantName",
+        "labelUrdu": "درخواست گزار کا نام",
+        "labelEnglish": "Applicant Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "مکمل نام درج کریں"
+      },
+      {
+        "name": "fatherName",
+        "labelUrdu": "والد کا نام",
+        "labelEnglish": "Father's Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "والد کا نام درج کریں"
+      },
+      {
+        "name": "address",
+        "labelUrdu": "پتہ",
+        "labelEnglish": "Address",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "مکمل پتہ درج کریں"
+      },
+      {
+        "name": "cnic",
+        "labelUrdu": "شناختی کارڈ نمبر",
+        "labelEnglish": "CNIC Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "00000-0000000-0"
+      },
+      {
+        "name": "propertyAddress",
+        "labelUrdu": "جائیداد کا پتہ",
+        "labelEnglish": "Property Address",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "جائیداد کا مکمل پتہ"
+      },
+      {
+        "name": "disputeParty",
+        "labelUrdu": "تنازع کرنے والا فریق",
+        "labelEnglish": "Dispute Party",
+        "type": "text",
+        "required": true,
+        "placeholder": "مخالف فریق کا نام"
+      },
+      {
+        "name": "propertyDetails",
+        "labelUrdu": "جائیداد کی تفصیلات",
+        "labelEnglish": "Property Details",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "جائیداد کی تفصیلی معلومات"
+      },
+      {
+        "name": "disputeReason",
+        "labelUrdu": "تنازع کی وجہ",
+        "labelEnglish": "Dispute Reason",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "تنازع کی تفصیلی وجہ"
+      }
+    ],
+    "fee": 50
+  },
+  {
+    "Id": 3,
+    "categoryId": 2,
+    "titleUrdu": "چوری کی رپورٹ",
+    "titleEnglish": "Theft Report",
+    "content": "محترم ایس ایچ او صاحب، میں {{applicantName}} ولد/ولدیت {{fatherName}} رہائشی {{address}} شناختی کارڈ نمبر {{cnic}} کے ذریعے عرض کرتا/کرتی ہوں کہ {{incidentDate}} کو {{incidentTime}} پر {{incidentLocation}} میں {{stolenItems}} چوری ہوئے ہیں۔ {{incidentDetails}} کی تفصیلات ہیں۔",
+    "fields": [
+      {
+        "name": "applicantName",
+        "labelUrdu": "درخواست گزار کا نام",
+        "labelEnglish": "Applicant Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "مکمل نام درج کریں"
+      },
+      {
+        "name": "fatherName",
+        "labelUrdu": "والد کا نام",
+        "labelEnglish": "Father's Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "والد کا نام درج کریں"
+      },
+      {
+        "name": "address",
+        "labelUrdu": "پتہ",
+        "labelEnglish": "Address",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "مکمل پتہ درج کریں"
+      },
+      {
+        "name": "cnic",
+        "labelUrdu": "شناختی کارڈ نمبر",
+        "labelEnglish": "CNIC Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "00000-0000000-0"
+      },
+      {
+        "name": "incidentDate",
+        "labelUrdu": "واقعہ کی تاریخ",
+        "labelEnglish": "Incident Date",
+        "type": "date",
+        "required": true,
+        "placeholder": "واقعہ کی تاریخ منتخب کریں"
+      },
+      {
+        "name": "incidentTime",
+        "labelUrdu": "واقعہ کا وقت",
+        "labelEnglish": "Incident Time",
+        "type": "time",
+        "required": true,
+        "placeholder": "واقعہ کا وقت منتخب کریں"
+      },
+      {
+        "name": "incidentLocation",
+        "labelUrdu": "واقعہ کا مقام",
+        "labelEnglish": "Incident Location",
+        "type": "text",
+        "required": true,
+        "placeholder": "واقعہ کا مقام درج کریں"
+      },
+      {
+        "name": "stolenItems",
+        "labelUrdu": "چوری شدہ اشیاء",
+        "labelEnglish": "Stolen Items",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "چوری شدہ اشیاء کی تفصیل"
+      },
+      {
+        "name": "incidentDetails",
+        "labelUrdu": "واقعہ کی تفصیلات",
+        "labelEnglish": "Incident Details",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "واقعہ کی مکمل تفصیل"
+      }
+    ],
+    "fee": 30
+  },
+  {
+    "Id": 4,
+    "categoryId": 3,
+    "titleUrdu": "اسکول میں چھٹی کی درخواست",
+    "titleEnglish": "School Leave Application",
+    "content": "محترم پرنسپل صاحب، میں {{studentName}} کلاس {{studentClass}} کا/کی طالب علم/طالبہ ہوں۔ میں {{leaveStartDate}} سے {{leaveEndDate}} تک {{leaveDays}} دن کی چھٹی کی درخواست کرتا/کرتی ہوں۔ {{leaveReason}} کی وجہ سے یہ چھٹی ضروری ہے۔",
+    "fields": [
+      {
+        "name": "studentName",
+        "labelUrdu": "طالب علم کا نام",
+        "labelEnglish": "Student Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "طالب علم کا مکمل نام"
+      },
+      {
+        "name": "studentClass",
+        "labelUrdu": "کلاس",
+        "labelEnglish": "Class",
+        "type": "text",
+        "required": true,
+        "placeholder": "کلاس درج کریں"
+      },
+      {
+        "name": "leaveStartDate",
+        "labelUrdu": "چھٹی کی شروعاتی تاریخ",
+        "labelEnglish": "Leave Start Date",
+        "type": "date",
+        "required": true,
+        "placeholder": "شروعاتی تاریخ منتخب کریں"
+      },
+      {
+        "name": "leaveEndDate",
+        "labelUrdu": "چھٹی کی اختتامی تاریخ",
+        "labelEnglish": "Leave End Date",
+        "type": "date",
+        "required": true,
+        "placeholder": "اختتامی تاریخ منتخب کریں"
+      },
+      {
+        "name": "leaveDays",
+        "labelUrdu": "چھٹی کے دن",
+        "labelEnglish": "Leave Days",
+        "type": "number",
+        "required": true,
+        "placeholder": "دنوں کی تعداد"
+      },
+      {
+        "name": "leaveReason",
+        "labelUrdu": "چھٹی کی وجہ",
+        "labelEnglish": "Leave Reason",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "چھٹی کی تفصیلی وجہ"
+      }
+    ],
+    "fee": 20
+  },
+  {
+    "Id": 5,
+    "categoryId": 4,
+    "titleUrdu": "بجلی کے بل کی شکایت",
+    "titleEnglish": "Electricity Bill Complaint",
+    "content": "محترم ایس ڈی او صاحب، میں {{consumerName}} کنزیومر نمبر {{consumerNumber}} کے ذریعے عرض کرتا/کرتی ہوں کہ {{billMonth}} کے مہینے کا بل {{billAmount}} روپے آیا ہے جو {{complaintReason}} کی وجہ سے غلط ہے۔ {{complaintDetails}} کی تفصیلات ہیں۔",
+    "fields": [
+      {
+        "name": "consumerName",
+        "labelUrdu": "کنزیومر کا نام",
+        "labelEnglish": "Consumer Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "کنزیومر کا مکمل نام"
+      },
+      {
+        "name": "consumerNumber",
+        "labelUrdu": "کنزیومر نمبر",
+        "labelEnglish": "Consumer Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "کنزیومر نمبر درج کریں"
+      },
+      {
+        "name": "billMonth",
+        "labelUrdu": "بل کا مہینہ",
+        "labelEnglish": "Bill Month",
+        "type": "text",
+        "required": true,
+        "placeholder": "مہینہ اور سال درج کریں"
+      },
+      {
+        "name": "billAmount",
+        "labelUrdu": "بل کی رقم",
+        "labelEnglish": "Bill Amount",
+        "type": "number",
+        "required": true,
+        "placeholder": "بل کی رقم درج کریں"
+      },
+      {
+        "name": "complaintReason",
+        "labelUrdu": "شکایت کی وجہ",
+        "labelEnglish": "Complaint Reason",
+        "type": "text",
+        "required": true,
+        "placeholder": "شکایت کی مختصر وجہ"
+      },
+      {
+        "name": "complaintDetails",
+        "labelUrdu": "شکایت کی تفصیلات",
+        "labelEnglish": "Complaint Details",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "شکایت کی تفصیلی معلومات"
+      }
+    ],
+    "fee": 20
+  },
+  {
+    "Id": 6,
+    "categoryId": 5,
+    "titleUrdu": "گھریلو تشدد کی شکایت",
+    "titleEnglish": "Domestic Violence Complaint",
+    "content": "محترم ایس ایچ او صاحب، میں {{complainantName}} ولد/ولدیت {{fatherName}} رہائشی {{address}} شناختی کارڈ نمبر {{cnic}} کے ذریعے عرض کرتا/کرتی ہوں کہ {{accusedName}} نے {{incidentDate}} کو {{violenceDetails}} کا واقعہ کیا ہے۔ {{relationshipDetails}} کی تفصیلات ہیں۔",
+    "fields": [
+      {
+        "name": "complainantName",
+        "labelUrdu": "شکایت کنندہ کا نام",
+        "labelEnglish": "Complainant Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "شکایت کنندہ کا مکمل نام"
+      },
+      {
+        "name": "fatherName",
+        "labelUrdu": "والد کا نام",
+        "labelEnglish": "Father's Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "والد کا نام درج کریں"
+      },
+      {
+        "name": "address",
+        "labelUrdu": "پتہ",
+        "labelEnglish": "Address",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "مکمل پتہ درج کریں"
+      },
+      {
+        "name": "cnic",
+        "labelUrdu": "شناختی کارڈ نمبر",
+        "labelEnglish": "CNIC Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "00000-0000000-0"
+      },
+      {
+        "name": "accusedName",
+        "labelUrdu": "ملزم کا نام",
+        "labelEnglish": "Accused Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "ملزم کا مکمل نام"
+      },
+      {
+        "name": "incidentDate",
+        "labelUrdu": "واقعہ کی تاریخ",
+        "labelEnglish": "Incident Date",
+        "type": "date",
+        "required": true,
+        "placeholder": "واقعہ کی تاریخ منتخب کریں"
+      },
+      {
+        "name": "violenceDetails",
+        "labelUrdu": "تشدد کی تفصیلات",
+        "labelEnglish": "Violence Details",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "تشدد کی تفصیلی معلومات"
+      },
+      {
+        "name": "relationshipDetails",
+        "labelUrdu": "رشتہ کی تفصیلات",
+        "labelEnglish": "Relationship Details",
+        "type": "text",
+        "required": true,
+        "placeholder": "ملزم سے رشتہ کی تفصیل"
+      }
+    ],
+    "fee": 30
+  },
+  {
+    "Id": 7,
+    "categoryId": 6,
+    "titleUrdu": "عام درخواست",
+    "titleEnglish": "General Application",
+    "content": "محترم {{recipientTitle}}، میں {{applicantName}} ولد/ولدیت {{fatherName}} رہائشی {{address}} شناختی کارڈ نمبر {{cnic}} کے ذریعے عرض کرتا/کرتی ہوں کہ {{applicationPurpose}} کے لیے درخواست کرتا/کرتی ہوں۔ {{applicationDetails}} کی تفصیلات ہیں۔",
+    "fields": [
+      {
+        "name": "recipientTitle",
+        "labelUrdu": "وصول کنندہ کا خطاب",
+        "labelEnglish": "Recipient Title",
+        "type": "text",
+        "required": true,
+        "placeholder": "جیسے: صاحب، مہوش، افسر وغیرہ"
+      },
+      {
+        "name": "applicantName",
+        "labelUrdu": "درخواست گزار کا نام",
+        "labelEnglish": "Applicant Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "مکمل نام درج کریں"
+      },
+      {
+        "name": "fatherName",
+        "labelUrdu": "والد کا نام",
+        "labelEnglish": "Father's Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "والد کا نام درج کریں"
+      },
+      {
+        "name": "address",
+        "labelUrdu": "پتہ",
+        "labelEnglish": "Address",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "مکمل پتہ درج کریں"
+      },
+      {
+        "name": "cnic",
+        "labelUrdu": "شناختی کارڈ نمبر",
+        "labelEnglish": "CNIC Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "00000-0000000-0"
+      },
+      {
+        "name": "applicationPurpose",
+        "labelUrdu": "درخواست کا مقصد",
+        "labelEnglish": "Application Purpose",
+        "type": "text",
+        "required": true,
+        "placeholder": "درخواست کا مقصد مختصر میں"
+      },
+      {
+        "name": "applicationDetails",
+        "labelUrdu": "درخواست کی تفصیلات",
+        "labelEnglish": "Application Details",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "درخواست کی تفصیلی معلومات"
+      }
+    ],
+    "fee": 20
+  }
+]

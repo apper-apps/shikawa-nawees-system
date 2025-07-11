@@ -1,0 +1,56 @@
+[
+  {
+    "Id": 1,
+    "nameUrdu": "عدالتی درخواستیں",
+    "nameEnglish": "Court Requests",
+    "icon": "Scale",
+    "baseFee": 50,
+    "templateCount": 8,
+    "description": "Legal court applications and petitions"
+  },
+  {
+    "Id": 2,
+    "nameUrdu": "پولیس درخواستیں",
+    "nameEnglish": "Police Requests",
+    "icon": "Shield",
+    "baseFee": 30,
+    "templateCount": 6,
+    "description": "Police complaints and FIR applications"
+  },
+  {
+    "Id": 3,
+    "nameUrdu": "تعلیمی درخواستیں",
+    "nameEnglish": "Educational Requests",
+    "icon": "GraduationCap",
+    "baseFee": 20,
+    "templateCount": 10,
+    "description": "School and college related applications"
+  },
+  {
+    "Id": 4,
+    "nameUrdu": "سرکاری و بینک امور",
+    "nameEnglish": "Government & Bank Affairs",
+    "icon": "Building2",
+    "baseFee": 20,
+    "templateCount": 12,
+    "description": "Government and banking related complaints"
+  },
+  {
+    "Id": 5,
+    "nameUrdu": "خاندانی و سماجی",
+    "nameEnglish": "Family & Social Issues",
+    "icon": "Users",
+    "baseFee": 30,
+    "templateCount": 7,
+    "description": "Family and social matter applications"
+  },
+  {
+    "Id": 6,
+    "nameUrdu": "حسبِ ضرورت",
+    "nameEnglish": "Custom Letters",
+    "icon": "Edit",
+    "baseFee": 20,
+    "templateCount": 5,
+    "description": "General purpose and custom letters"
+  }
+]
